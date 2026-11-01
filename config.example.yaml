@@ -1,0 +1,14 @@
+studio:
+  name: "Shine Yoga"        # Human-readable name; used as the Google Calendar event location
+  slug: "shine-yoga"        # URL slug: https://app.arketa.co/{slug}
+
+booking:
+  class_name: "Power Vinyasa"  # Exact or partial match (case-insensitive substring)
+  day_of_week: "Wednesday"     # Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+  time: "07:00"                # 24-hour HH:MM in the studio's local timezone
+  timezone: "America/Chicago"  # IANA timezone name
+  days_in_advance: 3           # Book this many days before the class date
+  duration_minutes: 60         # Used to compute the calendar event end time
+
+calendar:
+  calendar_id: "primary"       # Google Calendar ID; "primary" = your default calendar
